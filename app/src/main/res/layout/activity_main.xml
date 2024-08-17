@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Botón para Explorar Destinos -->
+    <Button
+        android:id="@+id/btn_explorar_destinos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explorar Destinos"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para Favoritos -->
+    <Button
+        android:id="@+id/btn_favoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para Recomendaciones -->
+    <Button
+        android:id="@+id/btn_recomendaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recomendaciones"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Spinner para categorías de viajes -->
+    <Spinner
+        android:id="@+id/spinner_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
