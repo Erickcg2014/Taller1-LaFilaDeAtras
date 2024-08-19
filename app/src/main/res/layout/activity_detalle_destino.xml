@@ -47,13 +47,21 @@
         android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
+    <!-- TextView para mostrar el clima -->
+    <TextView
+        android:id="@+id/txt_clima_destino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clima actual"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
     <Button
         android:id="@+id/btn_agregar_favoritos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Añadir a Favoritos"
         android:textColor="@android:color/white"/>
-
 
     <Button
         android:id="@+id/btn_atras"

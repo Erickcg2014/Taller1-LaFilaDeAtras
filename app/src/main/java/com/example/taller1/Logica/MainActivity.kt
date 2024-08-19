@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         val spinner: Spinner = findViewById(R.id.spinner_categorias)
         val adapter = ArrayAdapter.createFromResource(
             this,
-            R.array.categorias_viajes, // El array que contiene las categorías
-            android.R.layout.simple_spinner_item // Layout simple para el Spinner
+            R.array.categorias_viajes,
+            android.R.layout.simple_spinner_item
         )
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         val favoritosButton: Button = findViewById(R.id.btn_favoritos)
         val recomendacionesButton: Button = findViewById(R.id.btn_recomendaciones)
 
-        // Aquí podrías agregar las acciones que sucederán cuando se presionen los botones
         explorarButton.setOnClickListener {
             val intent = Intent(this, ExplorarDestinosActivity::class.java)
             val categoriaSeleccionada = spinner.selectedItem.toString()

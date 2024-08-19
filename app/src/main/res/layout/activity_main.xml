@@ -4,12 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Spinner para categorías de viajes -->
+    <Spinner
+        android:id="@+id/spinner_categorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"/>
 
     <!-- Botón para Explorar Destinos -->
     <Button
         android:id="@+id/btn_explorar_destinos"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Explorar Destinos"
         android:layout_marginBottom="16dp"/>
@@ -17,7 +25,7 @@
     <!-- Botón para Favoritos -->
     <Button
         android:id="@+id/btn_favoritos"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Favoritos"
         android:layout_marginBottom="16dp"/>
@@ -25,16 +33,8 @@
     <!-- Botón para Recomendaciones -->
     <Button
         android:id="@+id/btn_recomendaciones"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Recomendaciones"
-        android:layout_marginBottom="16dp"/>
-
-    <!-- Spinner para categorías de viajes -->
-    <Spinner
-        android:id="@+id/spinner_categorias"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"/>
+        android:text="Recomendaciones"/>
 
 </LinearLayout>
